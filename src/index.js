@@ -5,7 +5,7 @@ import { createStore, applyMiddleware } from 'redux';
 import { BrowserRouter, Route, Switch, browserHistory } from 'react-router-dom';
 import ReduxPromise from 'redux-promise';
 
-import App from './components/App';
+import App from './components/app';
 import ImageModal from './containers/ImageModal';
 import MissionModal from './components/MissionModal';
 
